@@ -113,3 +113,11 @@ Por exemplo, se for passado o número 123 para a função, esta deve retornar o
 valor 321. A seguir, desenvolva um código na função `main()` que solicite que o
 usuário informe um número inteiro, passe este número para a função e mostre na
 tela se o número informado é invertido corretamente.
+
+9. [FuncaoFatorial] Um número natural é dito *primo* se este possui apenas dois
+divisores diferentes: o 1 e ele mesmo. De posse desta informação, desenvolva um
+programa que contenha uma função que receba um número inteiro como parâmetro e
+retorne `true` se o número for primo ou `false` se o número não for primo. A
+seguir, desenvolva um código na função `main()` que solicite que o usuário
+informe um número inteiro, passe este número para a função e mostre na tela se o
+número informado é primo ou não.
