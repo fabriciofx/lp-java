@@ -5,6 +5,112 @@ nossas próprias instruções.
 
 ## 1.1 Motivação
 
+Veja o programa abaixo. Ele exibe um menu com as seguintes funcionalidades:
+1) Calcular a média; 2) Verificar aprovação; 3) Pontuação mínima para a final;
+0) Sair.
+
+```java
+public class Menu {
+	public static void main(String[] args) {
+		double nota1, nota2, media, notaFinal;
+		int opcao;
+
+		do {
+			opcao = Integer.parseInt(JOptionPane
+					.showInputDialog("Digite a opção:\n"
+							+ "1) Calcular a média\n"
+							+ "2) Verificar aprovação\n"
+							+ "3) Pontuação mínima para a final\n"
+							+ "0) Sair\n"));
+			switch (opcao) {
+			case 1:
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+				JOptionPane.showMessageDialog(null, "Média: " + media);
+				break;
+			case 2:
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+
+				if (media >= 6.0) {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está aprovado");
+				} else {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está reprovado");
+				}
+				break;
+			case 3:
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+				notaFinal = 12 - media;
+				JOptionPane.showMessageDialog(null,
+						"Sua nota mínima na final deverá ser " + notaFinal);
+				break;
+			case 0:
+				break;
+			default:
+				JOptionPane.showMessageDialog(null, "Opção inválida!");
+			}
+		} while (opcao != 0);
+	}
+}
+```
+Observe os códigos que estão no `case 1:`, `case 2:` e no `case 3:`. Notou
+alguma semelhança neles? Não? Olhe de novo, observando agora se há instruções
+que se repetem. Se você foi atencioso, vai notar que há uma repetição nas
+instruções abaixo:
+
+```java
+nota1 = Double.parseDouble(JOptionPane
+    .showInputDialog("Digite a 1a nota"));
+nota2 = Double.parseDouble(JOptionPane
+    .showInputDialog("Digite a 2a nota"));
+media = (nota1 + nota2) / 2;
+```
+que estão relacionadas a solicitar as notas do usuário e calcular a média destas
+notas.
+
+Agora, imagine que a escola que utiliza este programa mudou a sua forma de
+avaliação e agora são utilizadas três notas, ao invés de duas, para calcular a
+média de um estudante. Você teria então que alterar o código de cálculo da média
+TRÊS VEZES: no `case 1:`, `case 2:` e no `case 3:`. Ficando assim:
+
+```java
+nota1 = Double.parseDouble(JOptionPane
+    .showInputDialog("Digite a 1a nota"));
+nota2 = Double.parseDouble(JOptionPane
+    .showInputDialog("Digite a 2a nota"));
+nota3 = Double.parseDouble(JOptionPane
+    .showInputDialog("Digite a 3a nota"));
+media = (nota1 + nota2 + nota3) / 3;
+```
+
+Mas, imagino aqui se você não estaria se perguntando se seria possível evitar a
+repetição destas instruções, já que basicamente as instruções fazem a mesma
+coisa. E a resposta para isto é o conceito de **função**.
+
+
+## 1.2 Definição
+
+Segundo a [Wikipedia][1]:
+
+> Uma **função** consiste em uma porção de código que resolve um problema muito
+específico, parte de um problema maior (a aplicação final). Uma função
+geralmente "recebe" dados, processa estes dados e "retorna" o resultado deste
+processamento.
+
+Já um **procedimento** é uma função que não "retorna" nenhum resultado.
+
 
 ## 1.2 Vantagens e Desvantagens
 
@@ -79,18 +185,18 @@ números. Depois desenvolva um código na função `main()` que solicite que o
 usuário informe três números inteiros, passe estes números para a função e
 mostre na tela o resultado obtido com a função criada.
 
-4. [FuncaoMaiorDe3] Desenvolva um programa que contenha uma função que receba
-três números inteiros como parâmetro e retorne o maior dos três números. A
-seguir, desenvolva um código na função `main()` que solicite que o usuário
-informe três números inteiros, passe estes números para a função e mostre na
-tela se o número informado é o maior dos três.
-
 5. [FuncaoPositivoNegativoZero] Desenvolva um programa que contenha uma função
 que receba um número inteiro como parâmetro e retorne o caractere 'P' se o
 número passado for positivo, 'N' se for negativo e 'O' se for zero. A seguir,
 desenvolva um código na função `main()` que solicite que o usuário informe um
 número inteiro, passe este número para a função e mostre na tela o resultado
 obtido com a função criada.
+
+4. [FuncaoMaiorDe3] Desenvolva um programa que contenha uma função que receba
+três números inteiros como parâmetro e retorne o maior dos três números. A
+seguir, desenvolva um código na função `main()` que solicite que o usuário
+informe três números inteiros, passe estes números para a função e mostre na
+tela se o número informado é o maior dos três.
 
 6. [FuncaoEhPrimo] Um número natural é dito *primo* se este possui apenas dois
 divisores diferentes: o 1 e ele mesmo. De posse desta informação, desenvolva um
@@ -121,3 +227,8 @@ retorne `true` se o número for primo ou `false` se o número não for primo. A
 seguir, desenvolva um código na função `main()` que solicite que o usuário
 informe um número inteiro, passe este número para a função e mostre na tela se o
 número informado é primo ou não.
+
+
+## 1.5 Referências
+
+[1]: https://pt.wikipedia.org/wiki/Sub-rotina "Wikipedia"
