@@ -112,7 +112,98 @@ processamento.
 Já um **procedimento** é uma função que não "retorna" nenhum resultado.
 
 
-## 1.2 Vantagens e Desvantagens
+## 1.3 Sintaxe
+
+A construção de uma função obedece a seguinte sintaxe:
+
+```java
+public static TipoDoRetorno identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
+  Instrução1;
+  Instrução2;
+  ...
+  InstruçãoN;
+}
+```
+Já a construção de um procedimento, obedece a seguinte sintaxe:
+
+```java
+public static void identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
+  Instrução1;
+  Instrução2;
+  ...
+  InstruçãoN;  
+}
+```
+
+## 1.4 Aplicando o Conceito de Função na Motivação
+
+Agora que conhecemos a motivação, definição e sintaxe de uma função, vamos
+reescrever o programa apresentado na [Motivação](#11-motivação).
+
+Primeiramente, vamos escrever uma função que calcule uma média. Esta função, na
+qual chamaremos de `calculaMedia`, deverá solicitar ao usuário as duas notas e
+retorna a média destas notas. Depois vamos substituir as instruções pela função
+recém criada, ficando assim:
+
+```java
+public class MenuComFuncao {
+	public static double calculaMedia() {
+		double nota1, nota2, media;
+
+		nota1 = Double.parseDouble(JOptionPane
+				.showInputDialog("Digite a 1a nota"));
+		nota2 = Double.parseDouble(JOptionPane
+				.showInputDialog("Digite a 2a nota"));
+		media = (nota1 + nota2) / 2;
+
+		return media;
+	}
+
+	public static void main(String[] args) {
+		double media, notaFinal;
+		int opcao;
+
+		do {
+			opcao = Integer.parseInt(JOptionPane
+					.showInputDialog("Digite a opção:\n"
+							+ "1) Calcular a média\n"
+							+ "2) Verificar aprovação\n"
+							+ "3) Pontuação mínima para a final\n"
+							+ "0) Sair\n"));
+			switch (opcao) {
+			case 1:
+				media = calculaMedia();
+				JOptionPane.showMessageDialog(null, "Média: " + media);
+				break;
+			case 2:
+				media = calculaMedia();
+
+				if (media >= 6.0) {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está aprovado");
+				} else {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está reprovado");
+				}
+				break;
+			case 3:
+				media = calculaMedia();
+				notaFinal = 12 - media;
+				JOptionPane.showMessageDialog(null,
+						"Sua nota mínima na final deverá ser " + notaFinal);
+				break;
+			case 0:
+				break;
+			default:
+				JOptionPane.showMessageDialog(null, "Opção inválida!");
+			}
+		} while (opcao != 0);
+	}
+}
+```
+
+
+## 1.5 Vantagens e Desvantagens
 
 A utilização de funções ou procedimentos em programas traz diversas vantagens e
 desvantagens, a saber:
@@ -142,30 +233,8 @@ certos algoritmos.
 * Consome mais recursos (CPU e memória RAM).
 
 
-## 1.3 Sintaxe
 
-A construção de uma função obedece a seguinte sintaxe:
-
-```java
-public static TipoDoRetorno identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
-  Instrução1;
-  Instrução2;
-  ...
-  InstruçãoN;
-}
-```
-Já a construção de um procedimento, obedece a seguinte sintaxe:
-
-```java
-public static void identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
-  Instrução1;
-  Instrução2;
-  ...
-  InstruçãoN;  
-}
-```
-
-## 1.4 Exercícios
+## 1.6 Exercícios
 
 1. [FuncaoMaiorDe2] Desenvolva um programa que contenha uma função que receba
 dois números inteiros como parâmetro e retorne o maior dos dois números. A
@@ -229,6 +298,6 @@ informe um número inteiro, passe este número para a função e mostre na tela 
 número informado é primo ou não.
 
 
-## 1.5 Referências
+## 1.7 Referências
 
 [1]: https://pt.wikipedia.org/wiki/Sub-rotina "Wikipedia"
