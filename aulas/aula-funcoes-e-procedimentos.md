@@ -67,38 +67,32 @@ public class Menu {
 }
 ```
 Observe os códigos que estão no `case 1:`, `case 2:` e no `case 3:`. Notou
-alguma semelhança neles? Não? Olhe de novo, observando agora se há instruções
-que se repetem. Se você foi atencioso, vai notar que há uma repetição nas
+alguma semelhança entre eles? Não? Olhe de novo, observando agora se há
+instruções que se repetem. Se você foi atencioso, notou que há uma repetição nas
 instruções abaixo:
 
 ```java
-nota1 = Double.parseDouble(JOptionPane
-    .showInputDialog("Digite a 1a nota"));
-nota2 = Double.parseDouble(JOptionPane
-    .showInputDialog("Digite a 2a nota"));
+nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
+nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2a nota"));
 media = (nota1 + nota2) / 2;
 ```
-que estão relacionadas a solicitar as notas do usuário e calcular a média destas
-notas.
+que vão solicitar as notas do usuário e calcular a média destas notas.
 
-Agora, imagine que a escola que utiliza este programa mudou a sua forma de
+Agora, imagine que a escola onde este estudante estuda, mudou a forma de
 avaliação e agora são utilizadas três notas, ao invés de duas, para calcular a
-média de um estudante. Você teria então que alterar o código de cálculo da média
-TRÊS VEZES: no `case 1:`, `case 2:` e no `case 3:`. Ficando assim:
+média. Você teria então que alterar o código de cálculo da média TRÊS VEZES: no
+`case 1:`, `case 2:` e no `case 3:`. Ficando assim:
 
 ```java
-nota1 = Double.parseDouble(JOptionPane
-    .showInputDialog("Digite a 1a nota"));
-nota2 = Double.parseDouble(JOptionPane
-    .showInputDialog("Digite a 2a nota"));
-nota3 = Double.parseDouble(JOptionPane
-    .showInputDialog("Digite a 3a nota"));
+nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
+nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2a nota"));
+nota3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 3a nota"));
 media = (nota1 + nota2 + nota3) / 3;
 ```
 
-Mas, imagino aqui se você não estaria se perguntando se seria possível evitar a
-repetição destas instruções, já que basicamente as instruções fazem a mesma
-coisa. E a resposta para isto é o conceito de **função**.
+Mas, imagino aqui se você estaria se perguntando se seria possível evitar a
+repetição destas instruções, já que elas fazem a mesma coisa. E a resposta para
+isto é o conceito de **função**.
 
 
 ## 1.2 Definição
@@ -138,13 +132,12 @@ public static void identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) 
 
 ## 1.4 Aplicando o Conceito de Função na Motivação
 
-Agora que conhecemos a motivação, definição e sintaxe de uma função, vamos
+Agora que conhecemos a motivação, definição e sintaxe de uma função, podemos
 reescrever o programa apresentado na [Motivação](#11-motivação).
 
-Primeiramente, vamos escrever uma função que calcule uma média. Esta função, na
-qual chamaremos de `calculaMedia`, deverá solicitar ao usuário as duas notas e
-retorna a média destas notas. Depois vamos substituir as instruções pela função
-recém criada, ficando assim:
+Primeiramente, vamos escrever uma função, na qual chamaremos de `calculaMedia`,
+que deverá solicitar ao usuário as duas notas e retorna a média destas notas.
+Depois vamos substituir as instruções pela função recém criada, ficando assim:
 
 ```java
 public class MenuComFuncao {
