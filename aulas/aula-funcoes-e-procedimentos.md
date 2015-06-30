@@ -1,7 +1,8 @@
 # 1. Funções e Procedimentos
 
-Neste capítulo estudaremos como podemos modularizar os nossos programas, criando
-nossas próprias instruções.
+Neste capítulo, estudaremos como modularizar os nossos programas, criando nossas
+próprias instruções.
+
 
 ## 1.1 Motivação
 
