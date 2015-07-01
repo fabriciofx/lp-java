@@ -135,9 +135,10 @@ public static void identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) 
 Agora que conhecemos a motivação, definição e sintaxe de uma função, podemos
 reescrever o programa apresentado na [Motivação](#11-motivação).
 
-Primeiramente, vamos escrever uma função, na qual chamaremos de `calculaMedia`,
-que deverá solicitar ao usuário as duas notas e retorna a média destas notas.
-Depois vamos substituir as instruções pela função recém criada, ficando assim:
+Primeiramente, vamos escrever uma função, na qual chamaremos de
+`calculaMedia()`, que deverá solicitar ao usuário as duas notas e retorna a
+média destas notas. Depois vamos substituir as instruções pela função recém
+criada, ficando assim:
 
 ```java
 public class MenuComFuncao {
