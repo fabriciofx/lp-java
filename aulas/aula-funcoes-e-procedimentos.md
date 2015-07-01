@@ -375,6 +375,40 @@ total a ser pago. A seguir, desenvolva um código na função `main()` que solic
 que o usuário informe o tipo de combutível e a quantidade de combustível e,
 utilizando a função criada, mostre o valor total a ser pago.
 
+17. [FuncaoCalculaTotalDasCopias] Em uma banca de fotocópias existe a seguinte
+tabela de preços:
+<table>
+  <tr>
+    <th>Número de Cópias</th>  
+    <th>Preço por Cópia</th>  
+  </tr>
+  <tr>
+    <td>De 1 a 100</td>
+    <td>R$ 0,10</td>
+  </tr>
+  <tr>
+    <td>De 101 a 200</td>
+    <td>R$ 0,09</td>
+  </tr>
+  <tr>
+    <td>De 201 a 250</td>
+    <td>R$ 0,08</td>
+  </tr>
+  <tr>
+    <td>De 251 a 350</td>
+    <td>R$ 0,06</td>
+  </tr>
+  <tr>
+    <td>Acima de 350</td>
+    <td>R$ 0,05</td>
+  </tr>  
+</table>
+De posse destas informações, escreva um programa que contenha uma função que
+receba a quantidade de cópias e retorne o valor total a ser pago. A seguir,
+desenvolva um código na função `main()` que solicite ao usuário que informe a
+quantidade de cópias e, utilizando a função criada, mostre o valor total a ser
+pago.
+
 
 ## 1.7 Referências
 
