@@ -347,6 +347,7 @@ mostre o valor total a ser pago.
 17. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
 seguinte tabela de descontos:
 | Combustível | Preço | Descontos |
+|-------------|-------|-----------|
 | Álcool | R$ 3,07 | até 20 litros, desconto de 3% por litro |
 |        |         | acima de 20 litros, desconto de 5% por litro |
 | Gasolina | R$ 2,75 | até 20 litros, desconto de 4% por litro |
