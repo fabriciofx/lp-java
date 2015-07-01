@@ -427,10 +427,10 @@ qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
 
 20. [NumerosPrimosEntreDoisNumeros] Um número natural é dito *primo* se este
 possui apenas dois divisores diferentes: o 1 e ele mesmo. De posse desta
-informação, desenvolva um programa que contenha *duas* funções:<p/>
-  a) uma que informe se o número é primo ou não;<p/>
+informação, desenvolva um programa que contenha *duas* funções:<br/>
+  a) uma que informe se o número é primo ou não;<br/>
   b) outra que dados dois números inteiros, retorne todos os números primos entre
-  estes números.<p/>
+  estes números.<br/>
 A função (b) deverá utilizar a função (a). Em seguida desenvolva um código na
 função `main()` que solicite ao usuário que informe dois números inteiros, e
 utilizando a função (b) criada, mostre na tela todos os números primos entre os
