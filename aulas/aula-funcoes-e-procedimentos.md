@@ -66,10 +66,10 @@ public class Menu {
 	}
 }
 ```
-Observe os códigos que estão no `case 1:`, `case 2:` e no `case 3:`. Notou
-alguma semelhança entre eles? Não? Olhe de novo, observando agora se há
-instruções que se repetem. Se você foi atencioso, notou que há uma repetição nas
-instruções abaixo:
+Observe, no código acima, as instruções que estão em `case 1:`, `case 2:` e em
+`case 3:`. Viu alguma semelhança entre elas? Não? Olhe de novo, observando agora
+se há instruções que se repetem. Se você foi atencioso, notou que há uma
+repetição nas instruções abaixo:
 
 ```java
 nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
@@ -219,7 +219,7 @@ certos algoritmos.
 
 ### Desvantagens
 
-* Ter que aprender para que servem as novas instruções;
+* Ter que aprender para que serve as novas instruções;
   * a utilização de novas funções acabam gerando quase uma nova "linguagem";
   * mas, se bem utilizado, pode ser bom!
 * As chamadas das funções podem introduzir maior complexidade ao código;
