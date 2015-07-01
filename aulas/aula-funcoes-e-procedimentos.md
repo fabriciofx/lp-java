@@ -292,6 +292,72 @@ número inteiro *n* e retorne como resposta o fatorial deste número. A seguir,
 desenvolva um código na função `main()` que solicite que o usuário informe um
 número inteiro, passe este número para a função e mostre na tela o resultado.
 
+10.	[FuncaoCalculaPrestacaoAtrasada] De acordo com a fórmula "prestação = valor +
+(valor x taxa/100 x tempo), desenvolva um programa que contenha uma função que
+receba o valor a ser pago, a taxa e o tempo e retorne o valor da prestação a ser
+paga. A seguir, desenvolva um código na função `main()` que solicite que o
+usuário informe o valor a ser pago, a taxa e o tempo e utilize a função criada
+para saber qual o valor da prestação.
+
+11. [FuncaoConversaoDeMoedas] Desenvolva um programa que contenha uma função que
+permita uma pessoa converter uma quantia em dólares (USD) para reais (RBL), dado
+que esta função deverá receber a quantia em dólares e a cotação e retornar o
+valor em reais. A seguir, desenvolva um código na função `main()` que solicite
+que o usuário informe a quantia a ser convertida e a cotação e utilize a função
+criada para mostrar o valor em reais.
+
+12. [FuncaoCalculaTempoDeDownload] Desenvolva um programa que contenha uma
+função que receba o tamanho de um arquivo (em MiB) e a velocidade do link de
+Internet (em Mbps) e retorne o tempo aproximado (em minutos) de download deste
+arquivo. A seguir, desenvolva um código na função `main()` que solicite que o
+usuário informe o tamanho de um arquivo qualquer, a velocidade do link de
+Internet e, utilizando a função criada, mostre quanto tempo levará para realizar
+o download. **Observação: 1 Byte possui 8 bits; 1 MiB possui 1.048.576 Bytes;
+1Mbps são 1.000.000 de bits por segundo.**
+
+14. [FuncaoGasolinaOuAlcool] Com o surgimento dos carros bicombustíveis é
+possível, de acordo com o custo na bomba, escolher qual combustível utilizar na
+hora de abastecer. Em geral é mais econômico abastecer o veículo com álcool
+quando o preço do litro for inferior a 70% do valor do litro da gasolina.
+Sabendo desta informação, desenvolva um programa  que contenha uma função que
+receba o preço da gasolina e do álcool e retorne como resposta qual combustível é
+mais econômico na hora de abastecer. A seguir, desenvolva um código na função
+`main()` que solicite que o usuário informe o preço do litro do álcool e da
+gasolina e, utilizando a função criada, mostre com qual o combustível ele deve
+abastecer.
+
+15. [FuncaoCalculaPreco] Uma loja de revenda de computadores compra um
+computador de uma fábrica por um determinado preço. Ao revender este computador,
+esta loja precisa acrescentar ao preço de venda 23% referente ao ICMS. De posse
+deste valor, acrescentará ainda 15% referente ao lucro da loja e, em cima deste
+novo valor, 3% referente à comissão do vendedor. Com base nestas informações,
+desenvolva um programa que contenha uma função que receba o preço de fábrica e
+retorne o preço de revenda. A seguir, desenvolva um código na função `main()`
+que solicite que o usuário informe um preço qualquer de fábrica e, utilizando a
+função criada, mostre o preço de revenda.
+
+16. [FuncaoPagamentoDeBoletoAtrasado] Em um determinado boleto de pagamento
+lê-se “Em caso de atraso, cobrar multa de 5% do valor do boleto, acrescido de R$
+0,70 por dia de atraso”. De posse desta informação, desenvolva um programa que
+contenha uma função que receba o valor do boleto e retorne o valor total a ser
+pago. A seguir, desenvolva um código na função `main()` que solicite que o
+usuário informe um valor qualquer de boleto e, utilizando a função criada,
+mostre o valor total a ser pago.
+
+17. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
+seguinte tabela de descontos:
+| Combustível | Preço | Descontos |
+| Álcool | R$ 3,07 | até 20 litros, desconto de 3% por litro |
+|        |         | acima de 20 litros, desconto de 5% por litro |
+| Gasolina | R$ 2,75 | até 20 litros, desconto de 4% por litro |
+|         |          | acima de 20 litros, desconto de 6% por litro |
+De posse destas informações, escreva um programa que contenha uma função que
+receba o tipo de combustível e a quantidade de combustível e retorne o valor
+total a ser pago. A seguir, desenvolva um código na função `main()` que solicite
+que o usuário informe o tipo de combutível e a quantidade de combustível e,
+utilizando a função criada, mostre o valor total a ser pago.
+
+
 ## 1.7 Referências
 
 [1]: https://pt.wikipedia.org/wiki/Sub-rotina "Wikipedia"
