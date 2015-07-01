@@ -356,7 +356,7 @@ seguinte tabela de descontos:
     <td>Álcool</td>
     <td>R$ 3,07</td>
     <td>
-      até 20 litros, desconto de 3% por litro
+      até 20 litros, desconto de 3% por litro<p />
       acima de 20 litros, desconto de 5% por litro
     </td>
   </tr>
@@ -364,7 +364,7 @@ seguinte tabela de descontos:
     <td>Gasolina</td>
     <td>R$ 2,75</td>
     <td>
-      até 20 litros, desconto de 4% por litro
+      até 20 litros, desconto de 4% por litro<p />
       acima de 20 litros, desconto de 6% por litro
     </td>
   </tr>
