@@ -346,12 +346,12 @@ mostre o valor total a ser pago.
 
 17. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
 seguinte tabela de descontos:
-| Combustível | Preço | Descontos |
-|-------------|-------|-----------|
-| Álcool | R$ 3,07 | até 20 litros, desconto de 3% por litro |
-|        |         | acima de 20 litros, desconto de 5% por litro |
-| Gasolina | R$ 2,75 | até 20 litros, desconto de 4% por litro |
-|         |          | acima de 20 litros, desconto de 6% por litro |
+  | Combustível | Preço | Descontos |
+  |-------------|-------|-----------|
+  | Álcool | R$ 3,07 | até 20 litros, desconto de 3% por litro |
+  |        |         | acima de 20 litros, desconto de 5% por litro |
+  | Gasolina | R$ 2,75 | até 20 litros, desconto de 4% por litro |
+  |         |          | acima de 20 litros, desconto de 6% por litro |
 De posse destas informações, escreva um programa que contenha uma função que
 receba o tipo de combustível e a quantidade de combustível e retorne o valor
 total a ser pago. A seguir, desenvolva um código na função `main()` que solicite
