@@ -286,7 +286,7 @@ tela se o número informado é invertido corretamente.
 
 9. [FuncaoFatorial] Um número natural *n*, representado por *n!*, é definido
 como o produto de todos os inteiros positivos menores ou iguais a *n*. Por
-exemplo, 5! = 5 . 4. 3 . 2. 1. Além disso, também por definição, 0! = 1. De
+exemplo, 5! = 5 . 4 . 3 . 2 . 1. Além disso, também por definição, 0! = 1. De
 posse destas informações, desenvolva uma função que receba como parâmetro um
 número inteiro *n* e retorne como resposta o fatorial deste número. A seguir,
 desenvolva um código na função `main()` que solicite que o usuário informe um
