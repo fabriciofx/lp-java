@@ -471,10 +471,11 @@ salário; se vender entre 16 a 25 pneus, ganhará um bônus de 9% do salário, s
 vender entre 26 e 45 pneus, ganhará um bônus de 16% do salário e se vender acima
 de 45 pneus, ganhará, além de um bônus de 21% do salário, mais R$ 320,00.  De
 posse desta informação, desenvolva um programa que contenha uma função que
-receba o salário do vendedor e a quantidade de pneus vendidas e, retorne o valor
-total do salaário a ser pago a este vendedor. Também desenvolva um código no
+receba o salário do vendedor, a quantidade de pneus vendidas e retorne o valor
+total do salário a ser pago a este vendedor. Também desenvolva um código no
 procedimento `main()` que solite que ao usuário que informe utilizando a
 função criada, mostre na tela quanto ele irá ganhar no final do mês.
+
 
 ## 1.7 Referências
 
