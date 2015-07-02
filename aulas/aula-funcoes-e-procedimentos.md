@@ -233,82 +233,84 @@ certos algoritmos.
 
 1. [FuncaoMaiorDeDois] Desenvolva um programa que contenha uma função que receba
 dois números inteiros como parâmetro e retorne o maior dos dois números. A
-seguir, desenvolva um código na função `main()` que solicite ao usuário que
-informe dois números inteiros e, utilizando a função criada, mostre na tela se o
-número informado é o maior dos dois.
+seguir, desenvolva um código no procedimento `main()` que solicite ao usuário
+que informe dois números inteiros e, utilizando a função criada, mostre na tela
+se o número informado é o maior dos dois.
 
 2. [FuncaoEhPar] Desenvolva um programa que contenha uma função que receba um
 número inteiro como parâmetro e retorne `true` se o número for par ou `false` se
-o número for ímpar. A seguir, desenvolva um código na função `main()` que
+o número for ímpar. A seguir, desenvolva um código no procedimento `main()` que
 solicite ao usuário que informe um número inteiro e, utilizando a função criada,
 mostre na tela se o número informado é par ou ímpar.
 
 3. [FuncaoSomaTresNumeros] Desenvolva um programa que contenha uma função que
 receba três números inteiros como parâmetros e retorne a soma destes três
-números. Depois desenvolva um código na função `main()` que solicite ao usuário
-que informe três números inteiros e, utilizando a função criada, mostre na tela
-o resultado obtido.
+números. Depois desenvolva um código no procedimento `main()` que solicite ao
+usuário que informe três números inteiros e, utilizando a função criada, mostre
+na tela o resultado obtido.
 
 4. [FuncaoPositivoNegativoZero] Desenvolva um programa que contenha uma função
 que receba um número inteiro como parâmetro e retorne o caractere 'P' se o
 número passado for positivo, 'N' se for negativo e 'O' se for zero. A seguir,
-desenvolva um código na função `main()` que solicite ao usuário que informe um
-número inteiro e, utilizando a função criada, mostre na tela o resultado obtido.
+desenvolva um código no procedimento `main()` que solicite ao usuário que
+informe um número inteiro e, utilizando a função criada, mostre na tela o
+resultado obtido.
 
 5. [FuncaoMaiorDeTres] Desenvolva um programa que contenha uma função que receba
 três números inteiros como parâmetro e retorne o maior dos três números. A
-seguir, desenvolva um código na função `main()` que solicite ao usuário que
-informe três números inteiros e, utilizando a função criada, mostre na tela se o
-número informado é o maior dos três.
+seguir, desenvolva um código no procedimento `main()` que solicite ao usuário
+que informe três números inteiros e, utilizando a função criada, mostre na tela
+se o número informado é o maior dos três.
 
 6. [FuncaoEhPrimo] Um número natural é dito *primo* se este possui apenas dois
 divisores diferentes: o 1 e ele mesmo. De posse desta informação, desenvolva um
 programa que contenha uma função que receba um número inteiro como parâmetro e
 retorne `true` se o número for primo ou `false` se o número não for primo. A
-seguir, desenvolva um código na função `main()` que solicite ao usuário que
-informe um número inteiro, e utilizando a função criada, mostre na tela se o
+seguir, desenvolva um código no procedimento `main()` que solicite ao usuário
+que informe um número inteiro, e utilizando a função criada, mostre na tela se o
 número informado é primo ou não.
 
 7. [FuncaoContaDigitos] Desenvolva um programa que contenha uma função que
 receba um número inteiro como parâmetro e retorne a quantidade de dígitos deste
 número. Por exemplo, se for passado o número 1243 para esta função, ela deve
-retornar 4. A seguir, desenvolva um código na função `main()` que solicite ao
-usuário que informe um número inteiro, passe este número para a função e mostre
-na tela se a quantidade de dígitos confere com o número informado.
+retornar 4. A seguir, desenvolva um código no procedimento `main()` que solicite
+ao usuário que informe um número inteiro, passe este número para a função e
+mostre na tela se a quantidade de dígitos confere com o número informado.
 
 8. [FuncaoNumeroReverso] Desenvolva um programa que contenha uma função que
 receba um número inteiro como parâmetro e retorne o *inverso* do número passado.
 Por exemplo, se for passado o número 123 para a função, esta deve retornar o
-valor 321. A seguir, desenvolva um código na função `main()` que solicite ao
-usuário que informe um número inteiro e, utilizando a função criada, mostre na
-tela o número informado invertido.
+valor 321. A seguir, desenvolva um código no procedimento `main()` que solicite
+ao usuário que informe um número inteiro e, utilizando a função criada, mostre
+na tela o número informado invertido.
 
 9. [FuncaoFatorial] Um número natural *n*, representado por *n!*, é definido
 como o produto de todos os inteiros positivos menores ou iguais a *n*. Por
 exemplo, 5! = 5 . 4 . 3 . 2 . 1 = 120. Além disso, também por definição, 0! = 1.
 De posse destas informações, desenvolva uma função que receba como parâmetro um
 número inteiro *n* e retorne como resposta o fatorial deste número. A seguir,
-desenvolva um código na função `main()` que solicite ao usuário que informe um
-número inteiro e, utilizando a função criada, mostre na tela o resultado.
+desenvolva um código no procedimento `main()` que solicite ao usuário que
+informe um número inteiro e, utilizando a função criada, mostre na tela o
+resultado.
 
 10.	[FuncaoCalculaPrestacaoAtrasada] De acordo com a fórmula "prestação = valor +
 (valor x taxa/100 x tempo), desenvolva um programa que contenha uma função que
 receba o valor a ser pago, a taxa e o tempo e retorne o valor da prestação a ser
-paga. A seguir, desenvolva um código na função `main()` que solicite ao usuário
-que informe o valor a ser pago, a taxa e o tempo e, utilizando a função criada,
-mostre na tela qual o valor da prestação.
+paga. A seguir, desenvolva um código no procedimento `main()` que solicite ao
+usuário que informe o valor a ser pago, a taxa e o tempo e, utilizando a função
+criada, mostre na tela qual o valor da prestação.
 
 11. [FuncaoConversaoDeMoedas] Desenvolva um programa que contenha uma função que
 permita uma pessoa converter uma quantia em dólares (USD) para reais (RBL), dado
 que esta função deverá receber a quantia em dólares e a cotação e retornar o
-valor em reais. A seguir, desenvolva um código na função `main()` que solicite
-ao usuário que informe a quantia a ser convertida e a cotação e, utilizando a
-função criada, mostre na tela o valor em reais.
+valor em reais. A seguir, desenvolva um código no procedimento `main()` que
+solicite ao usuário que informe a quantia a ser convertida e a cotação e,
+utilizando a função criada, mostre na tela o valor em reais.
 
 12. [FuncaoCalculaTempoDeDownload] Desenvolva um programa que contenha uma
 função que receba o tamanho de um arquivo (em MiB) e a velocidade do link de
 Internet (em Mbps) e retorne o tempo aproximado (em minutos) de download deste
-arquivo. A seguir, desenvolva um código na função `main()` que solicite ao
+arquivo. A seguir, desenvolva um código no procedimento `main()` que solicite ao
 usuário que informe o tamanho de um arquivo qualquer, a velocidade do link de
 Internet e, utilizando a função criada, mostre na tela quanto tempo levará para
 realizar o download. **Observação: 1 Byte possui 8 bits; 1 MiB possui 1.048.576
@@ -320,10 +322,10 @@ hora de abastecer. Em geral é mais econômico abastecer o veículo com álcool
 quando o preço do litro for inferior a 70% do valor do litro da gasolina.
 Sabendo desta informação, desenvolva um programa  que contenha uma função que
 receba o preço da gasolina e do álcool e retorne como resposta qual combustível
-é mais econômico na hora de abastecer. A seguir, desenvolva um código na função
-`main()` que solicite ao usuário que informe o preço do litro do álcool e da
-gasolina e, utilizando a função criada, mostre na tela com qual o combustível
-ele deve abastecer.
+é mais econômico na hora de abastecer. A seguir, desenvolva um código no
+procedimento `main()` que solicite ao usuário que informe o preço do litro do
+álcool e da gasolina e, utilizando a função criada, mostre na tela com qual o
+combustível ele deve abastecer.
 
 14. [FuncaoCalculaPreco] Uma loja de revenda de computadores compra um
 computador de uma fábrica por um determinado preço. Ao revender este computador,
@@ -331,17 +333,17 @@ esta loja precisa acrescentar ao preço de venda 23% referente ao ICMS. De posse
 deste valor, acrescentará ainda 15% referente ao lucro da loja e, em cima deste
 novo valor, 3% referente à comissão do vendedor. Com base nestas informações,
 desenvolva um programa que contenha uma função que receba o preço de fábrica e
-retorne o preço de revenda. A seguir, desenvolva um código na função `main()`
-que solicite ao usuário que informe um preço qualquer de fábrica e, utilizando a
-função criada, mostre na tela o preço de revenda.
+retorne o preço de revenda. A seguir, desenvolva um código no procedimento
+`main()` que solicite ao usuário que informe um preço qualquer de fábrica e,
+utilizando a função criada, mostre na tela o preço de revenda.
 
 15. [FuncaoPagamentoDeBoletoAtrasado] Em um determinado boleto de pagamento
 lê-se “Em caso de atraso, cobrar multa de 5% do valor do boleto, acrescido de R$
 0,70 por dia de atraso”. De posse desta informação, desenvolva um programa que
 contenha uma função que receba o valor do boleto e retorne o valor total a ser
-pago. A seguir, desenvolva um código na função `main()` que solicite ao usuário
-que informe um valor qualquer de boleto e, utilizando a função criada, mostre na
-tela o valor total a ser pago.
+pago. A seguir, desenvolva um código no procedimento `main()` que solicite ao
+usuário que informe um valor qualquer de boleto e, utilizando a função criada,
+mostre na tela o valor total a ser pago.
 
 16. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
 seguinte tabela de descontos:
@@ -370,9 +372,10 @@ seguinte tabela de descontos:
 </table>
 De posse destas informações, escreva um programa que contenha uma função que
 receba o tipo de combustível e a quantidade de combustível e retorne o valor
-total a ser pago. A seguir, desenvolva um código na função `main()` que solicite
-ao usuário que informe o tipo de combutível e a quantidade de combustível e,
-utilizando a função criada, mostre na tela o valor total a ser pago.
+total a ser pago. A seguir, desenvolva um código no procedimento `main()` que
+solicite ao usuário que informe o tipo de combutível e a quantidade de
+combustível e, utilizando a função criada, mostre na tela o valor total a ser
+pago.
 
 17. [FuncaoCalculaTotalDeCopias] Em uma banca de fotocópias existe a seguinte
 tabela de preços:
@@ -404,27 +407,29 @@ tabela de preços:
 </table>
 De posse destas informações, escreva um programa que contenha uma função que
 receba a quantidade de cópias e retorne o valor total a ser pago. A seguir,
-desenvolva um código na função `main()` que solicite ao usuário que informe a
-quantidade de cópias e, utilizando a função criada, mostre na tela o valor total
-a ser pago.
+desenvolva um código no procedimento `main()` que solicite ao usuário que
+informe a quantidade de cópias e, utilizando a função criada, mostre na tela o
+valor total a ser pago.
 
 18. [FuncaoCalculaVolumeEsfera]  Desenvolva um programa que contenha uma função
 que receba o diâmetro de uma esfera e retorne o volume da mesma. A seguir,
-desenvolva um código na função `main()` que solicite ao usuário que informe o
-diâmetro de uma esfera qualquer e, utilizando a função criada, mostre na tela o
-volume desta esfera.
+desenvolva um código no procedimento `main()` que solicite ao usuário que
+informe o diâmetro de uma esfera qualquer e, utilizando a função criada, mostre
+na tela o volume desta esfera.
 
 19. [FuncaoCalculaVolumeCaixaDeAguaRetagular]  Desenvolva um programa que
 contenha uma função que receba as medidas de uma caixa d' água retangular e
-retorne o volume da mesma. A seguir, desenvolva um código na função `main()` que
-solicite ao usuário que informe as medidas de uma caixa d' água rentangular
-qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
+retorne o volume da mesma. A seguir, desenvolva um código no procedimento
+`main()` que solicite ao usuário que informe as medidas de uma caixa d' água
+rentangular qualquer e, utilizando a função criada, mostre na tela o volume
+desta caixa.
 
 20. [FuncaoCalculaVolumeCaixaDeAguaCilindrica]  Desenvolva um programa que
 contenha uma função que receba as medidas de uma caixa d' água cilíndrica e
-retorne o volume da mesma. A seguir, desenvolva um código na função `main()` que
-solicite ao usuário que informe as medidas de uma caixa d' água cilíndrica
-qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
+retorne o volume da mesma. A seguir, desenvolva um código no procedimento
+`main()` que solicite ao usuário que informe as medidas de uma caixa d' água
+cilíndrica qualquer e, utilizando a função criada, mostre na tela o volume desta
+caixa.
 
 21. [NumerosPrimosEntreDoisNumeros] Um número natural é dito *primo* se este
 possui apenas dois divisores diferentes: o 1 e ele mesmo. De posse desta
@@ -432,19 +437,19 @@ informação, desenvolva um programa que contenha *duas* funções:<br/>
   a) uma que informe se o número é primo ou não;<br/>
   b) outra que dados dois números inteiros, retorne todos os números primos
   entre estes números.<br/>
-A função (b) deverá utilizar a função (a). Em seguida desenvolva um código na
-função `main()` que solicite ao usuário que informe dois números inteiros, e
-utilizando a função (b) criada, mostre na tela todos os números primos entre os
-números informados.
+A função (b) deverá utilizar a função (a). Em seguida desenvolva um código no
+procedimento `main()` que solicite ao usuário que informe dois números inteiros,
+e utilizando a função (b) criada, mostre na tela todos os números primos entre
+os números informados.
 
 22. [FuncaoEhPerfeito] Um número natural *n* é dito perfeito se este for igual à
 soma de seus divisores positivos diferentes de *n*. Exemplo: se n = 6, este será
 perfeito, pois os números 1, 2 e 3 dividem o número 6 e a soma deles (1 + 2 + 3)
 é igual a 6. De posse desta informação, desenvolva um programa que contenha uma
 função que receba um número n e retorne se este número é perfeito ou não. A
-seguir, desenvolva um código na função `main()` que solicite ao usuário que
-informe um número qualquer e, utilizando a função criada, mostre na tela se este
-número é perfeito ou não.
+seguir, desenvolva um código no procedimento `main()` que solicite ao usuário
+que informe um número qualquer e, utilizando a função criada, mostre na tela se
+este número é perfeito ou não.
 
 23. [NumerosPerfeitosEntreDoisNumeros] Um número natural *n* é dito perfeito se
 este for igual à soma de seus divisores positivos diferentes de *n*. Exemplo: se
@@ -454,10 +459,10 @@ que contenha duas funções:<br/>
   a) uma que informe se o número é perfeito ou não;<br/>
   b) outra que dados dois números inteiros, retorne todos os números perfeitos
   entre estes números.<br/>
-A função (b) deverá utilizar a função (a). Em seguida desenvolva um código na
-função `main()` que solicite ao usuário que informe dois números inteiros, e
-utilizando a função (b) criada, mostre na tela todos os números perfeitos entre
-os números informados.
+A função (b) deverá utilizar a função (a). Em seguida desenvolva um código no
+procedimento `main()` que solicite ao usuário que informe dois números inteiros,
+e utilizando a função (b) criada, mostre na tela todos os números perfeitos
+entre os números informados.
 
 24. [FuncaoCalculaTotalDoSalario] Para estimular as vendas por parte dos seus
 vendedores, uma revenda de pneus da cidade está oferecendo o seguinte estímulo:
@@ -466,7 +471,9 @@ salário; se vender entre 16 a 25 pneus, ganhará um bônus de 9% do salário, s
 vender entre 26 e 45 pneus, ganhará um bônus de 16% do salário e se vender acima
 de 45 pneus, ganhará, além de um bônus de 21% do salário, mais R$ 320,00.  De
 posse desta informação, desenvolva um programa que contenha uma função que
-receba o salário do vendedor e a quantidade de pneus vendidas e, utilizando a
+receba o salário do vendedor e a quantidade de pneus vendidas e, retorne o valor
+total do salaário a ser pago a este vendedor. Também desenvolva um código no
+procedimento `main()` que solite que ao usuário que informe utilizando a
 função criada, mostre na tela quanto ele irá ganhar no final do mês.
 
 ## 1.7 Referências
