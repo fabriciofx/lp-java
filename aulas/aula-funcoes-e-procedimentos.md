@@ -231,7 +231,7 @@ certos algoritmos.
 
 ## 1.6 Exercícios
 
-1. [FuncaoMaiorDe2] Desenvolva um programa que contenha uma função que receba
+1. [FuncaoMaiorDeDois] Desenvolva um programa que contenha uma função que receba
 dois números inteiros como parâmetro e retorne o maior dos dois números. A
 seguir, desenvolva um código na função `main()` que solicite ao usuário que
 informe dois números inteiros e, utilizando a função criada, mostre na tela se o
@@ -255,7 +255,7 @@ número passado for positivo, 'N' se for negativo e 'O' se for zero. A seguir,
 desenvolva um código na função `main()` que solicite ao usuário que informe um
 número inteiro e, utilizando a função criada, mostre na tela o resultado obtido.
 
-5. [FuncaoMaiorDe3] Desenvolva um programa que contenha uma função que receba
+5. [FuncaoMaiorDeTres] Desenvolva um programa que contenha uma função que receba
 três números inteiros como parâmetro e retorne o maior dos três números. A
 seguir, desenvolva um código na função `main()` que solicite ao usuário que
 informe três números inteiros e, utilizando a função criada, mostre na tela se o
@@ -319,8 +319,8 @@ possível, de acordo com o custo na bomba, escolher qual combustível utilizar n
 hora de abastecer. Em geral é mais econômico abastecer o veículo com álcool
 quando o preço do litro for inferior a 70% do valor do litro da gasolina.
 Sabendo desta informação, desenvolva um programa  que contenha uma função que
-receba o preço da gasolina e do álcool e retorne como resposta qual combustível é
-mais econômico na hora de abastecer. A seguir, desenvolva um código na função
+receba o preço da gasolina e do álcool e retorne como resposta qual combustível
+é mais econômico na hora de abastecer. A seguir, desenvolva um código na função
 `main()` que solicite ao usuário que informe o preço do litro do álcool e da
 gasolina e, utilizando a função criada, mostre na tela com qual o combustível
 ele deve abastecer.
@@ -430,8 +430,8 @@ qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
 possui apenas dois divisores diferentes: o 1 e ele mesmo. De posse desta
 informação, desenvolva um programa que contenha *duas* funções:<br/>
   a) uma que informe se o número é primo ou não;<br/>
-  b) outra que dados dois números inteiros, retorne todos os números primos entre
-  estes números.<br/>
+  b) outra que dados dois números inteiros, retorne todos os números primos
+  entre estes números.<br/>
 A função (b) deverá utilizar a função (a). Em seguida desenvolva um código na
 função `main()` que solicite ao usuário que informe dois números inteiros, e
 utilizando a função (b) criada, mostre na tela todos os números primos entre os
@@ -439,8 +439,8 @@ números informados.
 
 22. [FuncaoEhPerfeito] Um número natural *n* é dito perfeito se este for igual à
 soma de seus divisores positivos diferentes de *n*. Exemplo: se n = 6, este será
-perfeito, pois os números 1, 2 e 3 dividem o número 6 e a soma deles (1 + 2 + 3) é
-igual a 6. De posse desta informação, desenvolva um programa que contenha uma
+perfeito, pois os números 1, 2 e 3 dividem o número 6 e a soma deles (1 + 2 + 3)
+é igual a 6. De posse desta informação, desenvolva um programa que contenha uma
 função que receba um número n e retorne se este número é perfeito ou não. A
 seguir, desenvolva um código na função `main()` que solicite ao usuário que
 informe um número qualquer e, utilizando a função criada, mostre na tela se este
