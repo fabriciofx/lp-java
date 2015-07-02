@@ -274,15 +274,16 @@ receba um número inteiro como parâmetro e retorne a quantidade de dígitos des
 número. Por exemplo, se for passado o número 1243 para esta função, ela deve
 retornar 4. A seguir, desenvolva um código na função `main()` que solicite ao
 usuário que informe um número inteiro, passe este número para a função e mostre
-na tela se a quantidade de dígitos confere com o número informado. 8.
-[FuncaoNumeroReverso] Desenvolva um programa que contenha uma função que receba
-um número inteiro como parâmetro e retorne o *inverso* do número passado. Por
-exemplo, se for passado o número 123 para a função, esta deve retornar o valor
-321. A seguir, desenvolva um código na função `main()` que solicite ao usuário
-que informe um número inteiro e, utilizando a função criada, mostre na tela o
-número informado invertido.
+na tela se a quantidade de dígitos confere com o número informado.
 
-8. [FuncaoFatorial] Um número natural *n*, representado por *n!*, é definido
+8. [FuncaoNumeroReverso] Desenvolva um programa que contenha uma função que
+receba um número inteiro como parâmetro e retorne o *inverso* do número passado.
+Por exemplo, se for passado o número 123 para a função, esta deve retornar o
+valor 321. A seguir, desenvolva um código na função `main()` que solicite ao
+usuário que informe um número inteiro e, utilizando a função criada, mostre na
+tela o número informado invertido.
+
+9. [FuncaoFatorial] Um número natural *n*, representado por *n!*, é definido
 como o produto de todos os inteiros positivos menores ou iguais a *n*. Por
 exemplo, 5! = 5 . 4 . 3 . 2 . 1 = 120. Além disso, também por definição, 0! = 1.
 De posse destas informações, desenvolva uma função que receba como parâmetro um
@@ -290,21 +291,21 @@ número inteiro *n* e retorne como resposta o fatorial deste número. A seguir,
 desenvolva um código na função `main()` que solicite ao usuário que informe um
 número inteiro e, utilizando a função criada, mostre na tela o resultado.
 
-9.	[FuncaoCalculaPrestacaoAtrasada] De acordo com a fórmula "prestação = valor +
+10.	[FuncaoCalculaPrestacaoAtrasada] De acordo com a fórmula "prestação = valor +
 (valor x taxa/100 x tempo), desenvolva um programa que contenha uma função que
 receba o valor a ser pago, a taxa e o tempo e retorne o valor da prestação a ser
 paga. A seguir, desenvolva um código na função `main()` que solicite ao usuário
 que informe o valor a ser pago, a taxa e o tempo e, utilizando a função criada,
 mostre na tela qual o valor da prestação.
 
-10. [FuncaoConversaoDeMoedas] Desenvolva um programa que contenha uma função que
+11. [FuncaoConversaoDeMoedas] Desenvolva um programa que contenha uma função que
 permita uma pessoa converter uma quantia em dólares (USD) para reais (RBL), dado
 que esta função deverá receber a quantia em dólares e a cotação e retornar o
 valor em reais. A seguir, desenvolva um código na função `main()` que solicite
 ao usuário que informe a quantia a ser convertida e a cotação e, utilizando a
 função criada, mostre na tela o valor em reais.
 
-11. [FuncaoCalculaTempoDeDownload] Desenvolva um programa que contenha uma
+12. [FuncaoCalculaTempoDeDownload] Desenvolva um programa que contenha uma
 função que receba o tamanho de um arquivo (em MiB) e a velocidade do link de
 Internet (em Mbps) e retorne o tempo aproximado (em minutos) de download deste
 arquivo. A seguir, desenvolva um código na função `main()` que solicite ao
@@ -313,7 +314,7 @@ Internet e, utilizando a função criada, mostre na tela quanto tempo levará pa
 realizar o download. **Observação: 1 Byte possui 8 bits; 1 MiB possui 1.048.576
 Bytes; 1Mbps são 1.000.000 de bits por segundo.**
 
-12. [FuncaoGasolinaOuAlcool] Com o surgimento dos carros bicombustíveis é
+13. [FuncaoGasolinaOuAlcool] Com o surgimento dos carros bicombustíveis é
 possível, de acordo com o custo na bomba, escolher qual combustível utilizar na
 hora de abastecer. Em geral é mais econômico abastecer o veículo com álcool
 quando o preço do litro for inferior a 70% do valor do litro da gasolina.
@@ -324,7 +325,7 @@ mais econômico na hora de abastecer. A seguir, desenvolva um código na funçã
 gasolina e, utilizando a função criada, mostre na tela com qual o combustível
 ele deve abastecer.
 
-13. [FuncaoCalculaPreco] Uma loja de revenda de computadores compra um
+14. [FuncaoCalculaPreco] Uma loja de revenda de computadores compra um
 computador de uma fábrica por um determinado preço. Ao revender este computador,
 esta loja precisa acrescentar ao preço de venda 23% referente ao ICMS. De posse
 deste valor, acrescentará ainda 15% referente ao lucro da loja e, em cima deste
@@ -334,7 +335,7 @@ retorne o preço de revenda. A seguir, desenvolva um código na função `main()
 que solicite ao usuário que informe um preço qualquer de fábrica e, utilizando a
 função criada, mostre na tela o preço de revenda.
 
-14. [FuncaoPagamentoDeBoletoAtrasado] Em um determinado boleto de pagamento
+15. [FuncaoPagamentoDeBoletoAtrasado] Em um determinado boleto de pagamento
 lê-se “Em caso de atraso, cobrar multa de 5% do valor do boleto, acrescido de R$
 0,70 por dia de atraso”. De posse desta informação, desenvolva um programa que
 contenha uma função que receba o valor do boleto e retorne o valor total a ser
@@ -342,7 +343,7 @@ pago. A seguir, desenvolva um código na função `main()` que solicite ao usuá
 que informe um valor qualquer de boleto e, utilizando a função criada, mostre na
 tela o valor total a ser pago.
 
-15. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
+16. [FuncaoCalculaPreçoCombustivel] Um posto está vendendo combustíveis com a
 seguinte tabela de descontos:
 <table>
   <tr>
@@ -373,7 +374,7 @@ total a ser pago. A seguir, desenvolva um código na função `main()` que solic
 ao usuário que informe o tipo de combutível e a quantidade de combustível e,
 utilizando a função criada, mostre na tela o valor total a ser pago.
 
-16. [FuncaoCalculaTotalDeCopias] Em uma banca de fotocópias existe a seguinte
+17. [FuncaoCalculaTotalDeCopias] Em uma banca de fotocópias existe a seguinte
 tabela de preços:
 <table>
   <tr>
@@ -407,25 +408,25 @@ desenvolva um código na função `main()` que solicite ao usuário que informe 
 quantidade de cópias e, utilizando a função criada, mostre na tela o valor total
 a ser pago.
 
-17. [FuncaoCalculaVolumeEsfera]  Desenvolva um programa que contenha uma função
+18. [FuncaoCalculaVolumeEsfera]  Desenvolva um programa que contenha uma função
 que receba o diâmetro de uma esfera e retorne o volume da mesma. A seguir,
 desenvolva um código na função `main()` que solicite ao usuário que informe o
 diâmetro de uma esfera qualquer e, utilizando a função criada, mostre na tela o
 volume desta esfera.
 
-18. [FuncaoCalculaVolumeCaixaDeAguaRetagular]  Desenvolva um programa que
+19. [FuncaoCalculaVolumeCaixaDeAguaRetagular]  Desenvolva um programa que
 contenha uma função que receba as medidas de uma caixa d' água retangular e
 retorne o volume da mesma. A seguir, desenvolva um código na função `main()` que
 solicite ao usuário que informe as medidas de uma caixa d' água rentangular
 qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
 
-19. [FuncaoCalculaVolumeCaixaDeAguaCilindrica]  Desenvolva um programa que
+20. [FuncaoCalculaVolumeCaixaDeAguaCilindrica]  Desenvolva um programa que
 contenha uma função que receba as medidas de uma caixa d' água cilíndrica e
 retorne o volume da mesma. A seguir, desenvolva um código na função `main()` que
 solicite ao usuário que informe as medidas de uma caixa d' água cilíndrica
 qualquer e, utilizando a função criada, mostre na tela o volume desta caixa.
 
-20. [NumerosPrimosEntreDoisNumeros] Um número natural é dito *primo* se este
+21. [NumerosPrimosEntreDoisNumeros] Um número natural é dito *primo* se este
 possui apenas dois divisores diferentes: o 1 e ele mesmo. De posse desta
 informação, desenvolva um programa que contenha *duas* funções:<br/>
   a) uma que informe se o número é primo ou não;<br/>
@@ -436,6 +437,37 @@ função `main()` que solicite ao usuário que informe dois números inteiros, e
 utilizando a função (b) criada, mostre na tela todos os números primos entre os
 números informados.
 
+22. [FuncaoEhPerfeito] Um número natural *n* é dito perfeito se este for igual à
+soma de seus divisores positivos diferentes de *n*. Exemplo: se n = 6, este será
+perfeito, pois os números 1, 2 e 3 dividem o número 6 e a soma deles (1 + 2 + 3) é
+igual a 6. De posse desta informação, desenvolva um programa que contenha uma
+função que receba um número n e retorne se este número é perfeito ou não. A
+seguir, desenvolva um código na função `main()` que solicite ao usuário que
+informe um número qualquer e, utilizando a função criada, mostre na tela se este
+número é perfeito ou não.
+
+23. [NumerosPerfeitosEntreDoisNumeros] Um número natural *n* é dito perfeito se
+este for igual à soma de seus divisores positivos diferentes de *n*. Exemplo: se
+n = 6, este será perfeito, pois os números 1, 2 e 3 dividem o número 6 e a soma
+deles (1 + 2 + 3) é igual a 6. De posse desta informação, desenvolva um programa
+que contenha duas funções:<br/>
+  a) uma que informe se o número é perfeito ou não;<br/>
+  b) outra que dados dois números inteiros, retorne todos os números perfeitos
+  entre estes números.<br/>
+A função (b) deverá utilizar a função (a). Em seguida desenvolva um código na
+função `main()` que solicite ao usuário que informe dois números inteiros, e
+utilizando a função (b) criada, mostre na tela todos os números perfeitos entre
+os números informados.
+
+24. [FuncaoCalculaTotalDoSalario] Para estimular as vendas por parte dos seus
+vendedores, uma revenda de pneus da cidade está oferecendo o seguinte estímulo:
+se um vendedor, durante o mês, vender até 15 pneus, ganhará um bônus de 6% do
+salário; se vender entre 16 a 25 pneus, ganhará um bônus de 9% do salário, se
+vender entre 26 e 45 pneus, ganhará um bônus de 16% do salário e se vender acima
+de 45 pneus, ganhará, além de um bônus de 21% do salário, mais R$ 320,00.  De
+posse desta informação, desenvolva um programa que contenha uma função que
+receba o salário do vendedor e a quantidade de pneus vendidas e, utilizando a
+função criada, mostre na tela quanto ele irá ganhar no final do mês.
 
 ## 1.7 Referências
 
