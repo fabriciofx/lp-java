@@ -94,6 +94,9 @@ Mas, imagino aqui se você estaria se perguntando se seria possível evitar a
 repetição destas instruções, já que elas fazem a mesma coisa. E a resposta para
 isto é o conceito de **função**.
 
+**Importante:** Observe que uma função é muito parecida com um programa: ele
+recebe dados, processa estes dados e retorna o resultado deste processamento.
+
 
 ## 1.2 Definição
 
@@ -104,12 +107,12 @@ específico, parte de um problema maior (a aplicação final). Uma função
 geralmente "recebe" dados, processa estes dados e "retorna" o resultado deste
 processamento.
 
-Já um **procedimento** é uma função que não "retorna" nenhum resultado.
+Já um **procedimento** é uma função que não retorna nenhum resultado.
 
 
 ## 1.3 Sintaxe
 
-A construção de uma função obedece a seguinte sintaxe:
+A *declaração* de uma função obedece a seguinte sintaxe:
 
 ```java
 public static TipoDoRetorno identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
@@ -117,20 +120,91 @@ public static TipoDoRetorno identificador(Tipo1 param1, Tipo2 param2, ..., TipoN
   Instrução2;
   ...
   InstruçãoN;
+
+  return valorOuVariavel;
 }
 ```
-Já a construção de um procedimento, obedece a seguinte sintaxe:
+Em que:
+* `public static`:  indica que está se construindo uma função ou procedimento;
+* `TipoDoRetorno`: indica qual o tipo do dado do valor que está sendo retornado
+(ex.: int, double, boolean, char, String, etc.);
+* `identificador`: indica como será o *"nome"* desta função;
+* `Tipo1`, `Tipo2`, ..., `TipoN`: são os tipos dos parâmetros (ex.: int, double,
+  boolean, char, String, etc.);
+* `param1`, `param2`, ..., `paramN`: são os identificadores dos parâmetros
+(ex.: idade, quantidade, nome, valor, etc.);
+* `return valorOuVariavel`: indica que a função está retornando algum valor
+(ex.: 10, true, 'A', "Sim", 7.5, etc.) ou alguma variável que possui algum
+valor.
+
+Observações:
+* Os parâmetros são opcionais.
+
+
+Para *declarar* um procedimento utiliza-se uma forma semelhante, com duas
+diferenças:
+* O `TipoDoRetorno` será `void`, para indicar que não há nenhum valor a
+retornar;
+* Não há um `return valorOuVariavel`, pois não há o que retornar.
+
+## 1.4 Exemplos
+
+1. Desenvolva uma função que solicite ao usuário informar duas notas e retornar
+a média destas notas.
 
 ```java
-public static void identificador(Tipo1 param1, Tipo2 param2, ..., TipoN paramN) {
-  Instrução1;
-  Instrução2;
-  ...
-  InstruçãoN;  
+public static double calculaMedia() {
+  double nota1, nota2, media;
+
+  nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
+  nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2a nota"));
+  media = (nota1 + nota2) / 2;
+
+  return media;
 }
 ```
+Em que:
+* `public static`:  indica que está se construindo uma função ou procedimento;
+* `double`: indica que a função está retornando um double, que é o tipo de dado
+da `media`;
+* `calculaMedia`: indica o *"nome"* da função, que é a forma como a
+referenciamos ao longo do programa;
+* Esta função não possui parâmetros. Por esta razão, após o nome temos um `()`;
+* Dentro da função (no seu *corpo*) há instruções para solicitar as duas notas
+e calcular a média;
+* `return media`: retorna o valor da média que foi calculada.
 
-## 1.4 Aplicando o Conceito de Função na Motivação
+2. No salário de um funcionário incide um desconto de 20% com relação a
+impostos. Desenvolva uma função que calcule o salário líquido deste funcionário.
+
+Como já sabemos, 20% -> 20/100 -> 0.20. Então podemos escrever:
+
+```java
+public static double calculaSalario(double salario) {
+  double impostos, salarioLiquido;
+
+  impostos = salario * 0.20;
+  salarioLiquido = salario - impostos;
+
+  return salarioLiquido;
+}
+```
+Em que:
+* `public static`:  indica que está se construindo uma função ou procedimento;
+* `double`: indica que a função está retornando um double, que é o tipo de dado
+da `media`;
+* `calculaSalario`: indica o *"nome"* da função, que é a forma como a
+referenciamos ao longo do programa;
+* `(double salario)`: é um parâmetro do tipo double chamado salário. É por
+este parâmetro que passamos o valor do salário do funcionário para a função
+para que esta calcule o salário líquido;
+* Dentro da função (no seu *corpo*) há instruções para calcular o salário
+líquido do funcionário, que é o salario menos o valor referente aos impostos
+(20%);
+* `return media`: retorna o valor da média que foi calculada.
+
+
+## 1.5 Aplicando o Conceito de Função na Motivação
 
 Agora que conhecemos a motivação, definição e sintaxe de uma função, podemos
 reescrever o programa apresentado na [Motivação](#11-motivação).
@@ -198,7 +272,7 @@ public class MenuComFuncao {
 ```
 
 
-## 1.5 Vantagens e Desvantagens
+## 1.6 Vantagens e Desvantagens
 
 A utilização de funções ou procedimentos em programas traz diversas vantagens e
 desvantagens, a saber:
@@ -228,8 +302,7 @@ certos algoritmos.
 * Consome mais recursos (CPU e memória RAM).
 
 
-
-## 1.6 Exercícios
+## 1.7 Exercícios
 
 1. [FuncaoMaiorDeDois] Desenvolva um programa que contenha uma função que receba
 dois números inteiros como parâmetro e retorne o maior dos dois números. A
@@ -477,6 +550,6 @@ procedimento `main()` que solite que ao usuário que informe utilizando a
 função criada, mostre na tela quanto ele irá ganhar no final do mês.
 
 
-## 1.7 Referências
+## 1.8 Referências
 
 [1]: https://pt.wikipedia.org/wiki/Sub-rotina "Wikipedia"
