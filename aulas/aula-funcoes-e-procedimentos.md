@@ -94,7 +94,7 @@ Mas, imagino aqui se você estaria se perguntando se seria possível evitar a
 repetição destas instruções, já que elas fazem a mesma coisa. E a resposta para
 isto é o conceito de **função**.
 
-**Importante:** Observe que uma função é muito parecida com um programa: ele
+**Importante:** Observe que uma função é muito parecida com um programa: ela
 recebe dados, processa estes dados e retorna o resultado deste processamento.
 
 
@@ -127,15 +127,15 @@ public static TipoDoRetorno identificador(Tipo1 param1, Tipo2 param2, ..., TipoN
 Em que:
 * `public static`:  indica que está se construindo uma função ou procedimento;
 * `TipoDoRetorno`: indica qual o tipo do dado do valor que está sendo retornado
-(ex.: int, double, boolean, char, String, etc.);
+(ex.: `int`, `double`, `boolean`, `char`, `String`, etc.);
 * `identificador`: indica como será o *"nome"* desta função;
-* `Tipo1`, `Tipo2`, ..., `TipoN`: são os tipos dos parâmetros (ex.: int, double,
-  boolean, char, String, etc.);
+* `Tipo1`, `Tipo2`, ..., `TipoN`: são os tipos dos parâmetros (ex.: `int`,
+  `double`, `boolean`, `char`, `String`, etc.);
 * `param1`, `param2`, ..., `paramN`: são os identificadores dos parâmetros
-(ex.: idade, quantidade, nome, valor, etc.);
+(ex.: `idade`, `quantidade`, `nome`, `valor`, etc.);
 * `return valorOuVariavel`: indica que a função está retornando algum valor
-(ex.: 10, true, 'A', "Sim", 7.5, etc.) ou alguma variável que possui algum
-valor.
+(ex.: `10`, `true`, `'A'`, `"Sim"`, `7.5`, etc.) ou alguma variável que possui
+algum valor.
 
 Observações:
 * Os parâmetros são opcionais.
@@ -147,61 +147,62 @@ diferenças:
 retornar;
 * Não há um `return valorOuVariavel`, pois não há o que retornar.
 
+
 ## 1.4 Exemplos
 
 1. Desenvolva uma função que solicite ao usuário informar duas notas e retornar
 a média destas notas.
 
-```java
-public static double calculaMedia() {
-  double nota1, nota2, media;
+  ```java
+  public static double calculaMedia() {
+    double nota1, nota2, media;
 
-  nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
-  nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2a nota"));
-  media = (nota1 + nota2) / 2;
+    nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1a nota"));
+    nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2a nota"));
+    media = (nota1 + nota2) / 2;
 
-  return media;
-}
-```
-Em que:
-* `public static`:  indica que está se construindo uma função ou procedimento;
-* `double`: indica que a função está retornando um double, que é o tipo de dado
-da `media`;
-* `calculaMedia`: indica o *"nome"* da função, que é a forma como a
-referenciamos ao longo do programa;
-* Esta função não possui parâmetros. Por esta razão, após o nome temos um `()`;
-* Dentro da função (no seu *corpo*) há instruções para solicitar as duas notas
-e calcular a média;
-* `return media`: retorna o valor da média que foi calculada.
+    return media;
+  }
+  ```
+  Em que:
+  * `public static`:  indica que está se construindo uma função ou procedimento;
+  * `double`: indica que a função está retornando um double, que é o tipo de dado
+  da `media`;
+  * `calculaMedia`: indica o *"nome"* da função, que é a forma como a
+  referenciamos ao longo do programa;
+  * Esta função não possui parâmetros. Por esta razão, após o nome temos um `()`;
+  * Dentro da função (no seu *corpo*) há instruções para solicitar as duas notas
+  e calcular a média;
+  * `return media`: retorna o valor da média que foi calculada.
 
 2. No salário de um funcionário incide um desconto de 20% com relação a
 impostos. Desenvolva uma função que calcule o salário líquido deste funcionário.
 
-Como já sabemos, 20% -> 20/100 -> 0.20. Então podemos escrever:
+  Como já sabemos, 20% -> 20/100 -> 0.20. Então podemos escrever:
 
-```java
-public static double calculaSalario(double salario) {
-  double impostos, salarioLiquido;
+  ```java
+  public static double calculaSalario(double salario) {
+    double impostos, salarioLiquido;
 
-  impostos = salario * 0.20;
-  salarioLiquido = salario - impostos;
+    impostos = salario * 0.20;
+    salarioLiquido = salario - impostos;
 
-  return salarioLiquido;
-}
-```
-Em que:
-* `public static`:  indica que está se construindo uma função ou procedimento;
-* `double`: indica que a função está retornando um double, que é o tipo de dado
-da `media`;
-* `calculaSalario`: indica o *"nome"* da função, que é a forma como a
-referenciamos ao longo do programa;
-* `(double salario)`: é um parâmetro do tipo double chamado salário. É por
-este parâmetro que passamos o valor do salário do funcionário para a função
-para que esta calcule o salário líquido;
-* Dentro da função (no seu *corpo*) há instruções para calcular o salário
-líquido do funcionário, que é o salario menos o valor referente aos impostos
-(20%);
-* `return media`: retorna o valor da média que foi calculada.
+    return salarioLiquido;
+  }
+  ```
+  Em que:
+  * `public static`:  indica que está se construindo uma função ou procedimento;
+  * `double`: indica que a função está retornando um double, que é o tipo de dado
+  da `media`;
+  * `calculaSalario`: indica o *"nome"* da função, que é a forma como a
+  referenciamos ao longo do programa;
+  * `(double salario)`: é um parâmetro do tipo double chamado salário. É por
+  este parâmetro que passamos o valor do salário do funcionário para a função
+  para que esta calcule o salário líquido;
+  * Dentro da função (no seu *corpo*) há instruções para calcular o salário
+  líquido do funcionário, que é o salario menos o valor referente aos impostos
+  (20%);
+  * `return media`: retorna o valor da média que foi calculada.
 
 
 ## 1.5 Aplicando o Conceito de Função na Motivação
