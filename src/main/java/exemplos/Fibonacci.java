@@ -13,14 +13,13 @@ public class Fibonacci {
 		a = 1;
 		b = 1;
 
-		for (int i = 0; i < n - 1; i++) {
+		for (int i = 0; i < n; i++) {
 			r = r + a + ", ";
 			soma = a + b;
 			a = b;
 			b = soma;
 		}
 
-		r = r + a;
 		JOptionPane.showMessageDialog(null, r);
 	}
 }
