@@ -85,7 +85,7 @@ linguagem Java temos os seguintes tipos de dados:
     <td rowspan="4">Números inteiros</td>
     <td><code>byte</code></td>
     <td>Número inteiro de 8 bits</td>
-    <td>-128 a 127 (-2^7 a 2^7 - 1)</td>
+    <td>-128 a 127 (-2<sup>7</sup> a 2^<sup>7</sup> - 1)</td>
     <td>1 byte</td>
   </tr>
   <tr>
