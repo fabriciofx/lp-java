@@ -1,21 +1,50 @@
 # 1. Variáveis
 
-Neste capítulo, estudaremos como podemos utilizar, por meio de um programa, a
-memória RAM do computador, para armazenar dados e o resultado de algum
-processamento.
+Neste capítulo, estudaremos o que é uma variável e como podemos utilizá-la para
+armazenar dados e o resultado de algum processamento.
 
 
 ## 1.1 Motivação
 
+Como vimos anteriormente, a memória RAM do computador é utilizada para
+armazenar os dados e instruções a serem executadas pela CPU do computador. Este
+processo é comum quando, por exemplo, precisamos ler uma dado digitado por meio
+do teclado do computador. Este dado precisa ser armazenado na memória RAM para
+só então poder ser utilizado no programa. Um cálculo de uma efetuado por um
+programa também possui um resultado, que possivelmente também será armazenado
+na memória RAM do computador. A questão é: como podemos então utilizar a
+memória RAM para armazenar os dados? A resposta a esta pergunta é a utilização
+de uma variável.
+
+
 ## 1.2 Definição
 
-> Uma variável é uma representação, em um programa, da memória RAM, com o
-objetivo de utilizá-la para guardar dados ou o resultado de algum processamento.
+> Uma variável é uma representação, em um programa, da memória RAM do
+computador, capaz de armazenar um valor ou expressão.
 
 Observação: lembrar que a CPU só lê dados e instruções da **memória RAM**.
 
 
-## 1.3 Sintaxe:
+## 1.3 Características Fundamentais
+
+Uma variável possui três características fundamentais a saber: **tipo de
+dado**, **identificador** e **valor**.
+
+O **tipo de dado**, ou simplesmente tipo, informa qual o tipo do dado que a
+variável irá armazenar ou representar. Como exemplos de tipos de dado pode ser
+um número inteiro ou real, um caractere, uma string ou um valor booleano.
+
+O **identificador** é um nome associado a uma variável utilizado para
+representá-la. Como exemplos temos: `idade`, `sexo`, `salario`, `nome`,
+`ehCasado`. Na maioria das linguagens de programação, existem regras que
+determinam como um identificador deverá ser formado.
+
+Um **valor** ou **expressão**, que é o dado retido ou representado pela
+variável. Este valor está intimamente relacionado com o tipo de dado que a
+variável utiliza. Por exemplo, se for declarada uma variável do tipo string.
+
+
+## 1.4 Sintaxe:
 
 ```java
 Tipo Identificador = valor;
