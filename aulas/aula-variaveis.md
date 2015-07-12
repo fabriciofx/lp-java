@@ -22,7 +22,8 @@ de uma variável.
 > Uma variável é uma representação, em um programa, da memória RAM do
 computador, capaz de armazenar um valor ou expressão.
 
-Observação: lembrar que a CPU só lê dados e instruções da **memória RAM**.
+Observação: lembrar que a CPU só lê dados e instruções que foram previamente
+armazenados na **memória RAM**.
 
 
 ## 1.3 Características Fundamentais
