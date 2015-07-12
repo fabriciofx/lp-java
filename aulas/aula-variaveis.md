@@ -69,7 +69,11 @@ linguagem Java temos os seguintes tipos de dados:
   </tr>
   <tr>
     <td>Booleano</td>
-    <td><code>boolean</code></td>
+    <td>
+      <pre>
+        <span class="pl-k">boolean</span>
+      </pre>
+    </td>
     <td>Representa verdadeiro verdadeiro ou falso</td>
     <td><code>true</code> ou <code>false</code></td>
     <td>Depende da JVM</td>
