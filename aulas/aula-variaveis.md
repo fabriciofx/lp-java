@@ -45,54 +45,54 @@ Números inteiros | `byte` | Número inteiro de 8 bits | -128 a  127 (-2^7 a 2^7
 
 1. Crie uma variável para armazenar um endereço
 
-String logradouro;
-```java
-logradouro = "Av. Rui Barbosa";
-```
-ou
+  String logradouro;
+  ```java
+  logradouro = "Av. Rui Barbosa";
+  ```
+  ou
 
-```java
-String logradouro = "Av. Rui Barbosa";
-```
+  ```java
+  String logradouro = "Av. Rui Barbosa";
+  ```
 
 2. Crie uma variável para representar se uma pessoa está casada ou não
 
-```java
-boolean estaCasado;
-estaCasado = false;
-```
+  ```java
+  boolean estaCasado;
+  estaCasado = false;
+  ```
 
 3. Crie uma variável para representar a idade de uma pessoa
 
-```java
-int idade;
-idade = 34;
-```
+  ```java
+  int idade;
+  idade = 34;
+  ```
 
 4. Crie uma variável para representar a nota (numérica) de um estudante
 
-```java
-double nota;
-nota = 7.2;
-```
+  ```java
+  double nota;
+  nota = 7.2;
+  ```
 
 5. Crie uma variável para representar a nota (conceito) de um estudante
 
-```java
-char conceito;
-conceito = 'A';
-```
+  ```java
+  char conceito;
+  conceito = 'A';
+  ```
 
 6. Crie uma variável para representar o CPF de uma pessoa
 
-```java
-String cpf;
-cpf = "123.456.789-10";
-```
+  ```java
+  String cpf;
+  cpf = "123.456.789-10";
+  ```
 
 7. Crie uma variável para representar o número de telefone de uma pessoa
 
-```java
-String fone;
-fone = "6785-3456";
-```
+  ```java
+  String fone;
+  fone = "6785-3456";
+  ```
