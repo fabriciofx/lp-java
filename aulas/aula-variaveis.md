@@ -69,41 +69,39 @@ linguagem Java temos os seguintes tipos de dados:
   </tr>
   <tr>
     <td>Booleano</td>
-    <td>
-      <span class="pl-k">boolean</span>
-    </td>
+    <td><code>boolean</code></td>
     <td>Representa verdadeiro verdadeiro ou falso</td>
     <td><code>true</code> ou <code>false</code></td>
     <td>Depende da JVM</td>
   </tr>
   <tr>
     <td>Caractere</td>
-    <td>`char`</td>
+    <td><code>char</code></td>
     <td>Caractere único em notação Unicode de 16 bits</td>
-    <td>\u0000 a \uFFFF (0 a 65.535)</td>
+    <td><code>\u0000</code> a <code>\uFFFF</code> (0 a 65.535)</td>
     <td>2 bytes</td>
   </tr>
   <tr>
     <td rowspan="4">Números inteiros</td>
-    <td>byte</td>
+    <td><code>byte</code></td>
     <td>Número inteiro de 8 bits</td>
     <td>-128 a 127 (-2^7 a 2^7 - 1)</td>
     <td>1 byte</td>
   </tr>
   <tr>
-    <td>short</td>
+    <td><code>short</code></td>
     <td>Número inteiro de 16 bits</td>
     <td>-32.768 a 32.767 (-2^15 a 2^15 - 1)</td>
     <td>2 bytes</td>
   </tr>
   <tr>
-    <td>int</td>
+    <td><code>int</code></td>
     <td>Número inteiro de 32 bits</td>
     <td>-2.147.483.648 a 2.147.483.647 (-2^31 a 2^31 - 1)</td>
     <td>4 bytes</td>
   </tr>
   <tr>
-    <td>long</td>
+    <td><code>long</code></td>
     <td>Número inteiro de 64 bits</td>
     <td>-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
     (-2^63 a 2^63 - 1)</td>
@@ -111,14 +109,14 @@ linguagem Java temos os seguintes tipos de dados:
   </tr>
   <tr>
     <td rowspan="2">Números reais</td>
-    <td>float</td>
+    <td><code>float</code></td>
     <td>Número de ponto flutuante normalizado em precisão
     simples de 32 bits</td>
     <td>-1.4 x 10^-45 a +3.4 x 10^38</td>
     <td>4 bytes</td>
   </tr>
   <tr>
-    <td>double</td>
+    <td><code>double</code></td>
     <td>Número de ponto flutuante normalizado em precisão
     simples de 64 bits</td>
     <td>-5.0 x 10^-324 a +1.7 x 10^308</td>
