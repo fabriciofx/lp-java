@@ -45,8 +45,8 @@ Números inteiros | `byte` | Número inteiro de 8 bits | -128 a  127 (-2^7 a 2^7
 
 1. Crie uma variável para armazenar um endereço
 
-  String logradouro;
   ```java
+  String logradouro;
   logradouro = "Av. Rui Barbosa";
   ```
   ou
