@@ -30,12 +30,27 @@ identificador = valor;
 Em que:
 * `Tipo`: indica a natureza do dado que você está guardando na memória RAM. Na
 linguagem Java temos os seguintes tipos de dados:
-
-| Tipo | Nome | Descrição | Intervalo | Tamanho |
--------+------+-----------+-----------+---------+
-Booleano | `boolean` | Representa verdadeiro verdadeiro ou falso | `true` ou `false` | Depende da JVM |
-Caractere | `char` | Caractere único em notação Unicode de 16 bits | \u0000 a \uFFFF (0 a 65.535) | 2 bytes|
-Números inteiros | `byte` | Número inteiro de 8 bits | -128 a  127 (-2^7 a 2^7 - 1) | 1 byte |
+<table>
+  <tr>
+    <th>Tipo</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+    <th>Intervalo</th>
+    <th>Tamanho</th>
+  </tr>
+  <tr>
+    <td>Booleano</td>
+    <td>`boolean`</td>
+    <td>Representa verdadeiro verdadeiro ou falso</td>
+    <td>`true` ou `false`</td>
+    <td>Depende da JVM</td>
+  </tr>
+    <td>Caractere</td>
+    <td>`char`</td>
+    <td>Caractere único em notação Unicode de 16 bits</td>
+    <td>\u0000 a \uFFFF (0 a 65.535)</td>
+    <td>2 bytes</td>
+</table>
 
 * `valor`: o dado a ser guardado na variável.
   * Para guardar um valor numa variável, usamos o operador de atribuição (`=`).
