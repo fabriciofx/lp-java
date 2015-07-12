@@ -4,38 +4,49 @@ import javax.swing.JOptionPane;
 
 public class Menu {
 	public static void main(String[] args) {
+		double nota1, nota2, media, notaFinal;
 		int opcao;
-		double n1, n2, media, nf;
 
 		do {
 			opcao = Integer.parseInt(JOptionPane
-					.showInputDialog("Escolha uma opção:\n\n"
-							+ "1) Calcula média\n" + "2)Calcula nota final\n"
-							+ "3)Verifica aprovação\n" + "\n0)Sair"));
+					.showInputDialog("Digite a opção:\n"
+							+ "1) Calcular a média\n"
+							+ "2) Verificar aprovação\n"
+							+ "3) Pontuação mínima para a final\n"
+							+ "0) Sair\n"));
 			switch (opcao) {
 			case 1:
-				n1 = Double.parseDouble(JOptionPane.showInputDialog("Nota 1"));
-				n2 = Double.parseDouble(JOptionPane.showInputDialog("Nota 2"));
-				media = (n1 + n2) / 2;
-				JOptionPane.showMessageDialog(null, media);
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+				JOptionPane.showMessageDialog(null, "Média: " + media);
 				break;
 			case 2:
-				n1 = Double.parseDouble(JOptionPane.showInputDialog("Nota 1"));
-				n2 = Double.parseDouble(JOptionPane.showInputDialog("Nota 2"));
-				media = (n1 + n2) / 2;
-				nf = 12 - media;
-				JOptionPane.showMessageDialog(null, "Nota mínima na final: "
-						+ nf);
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+
+				if (media >= 6.0) {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está aprovado");
+				} else {
+					JOptionPane.showMessageDialog(null,
+							"O estudante está reprovado");
+				}
 				break;
 			case 3:
-				n1 = Double.parseDouble(JOptionPane.showInputDialog("Nota 1"));
-				n2 = Double.parseDouble(JOptionPane.showInputDialog("Nota 2"));
-				media = (n1 + n2) / 2;
-				if (media >= 6.0) {
-					JOptionPane.showMessageDialog(null, "Aprovado");
-				} else {
-					JOptionPane.showMessageDialog(null, "Reprovado");
-				}
+				nota1 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 1a nota"));
+				nota2 = Double.parseDouble(JOptionPane
+						.showInputDialog("Digite a 2a nota"));
+				media = (nota1 + nota2) / 2;
+				notaFinal = 12 - media;
+				JOptionPane.showMessageDialog(null,
+						"Sua nota mínima na final deverá ser " + notaFinal);
 				break;
 			case 0:
 				break;
