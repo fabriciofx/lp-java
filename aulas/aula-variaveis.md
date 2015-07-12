@@ -85,26 +85,27 @@ linguagem Java temos os seguintes tipos de dados:
     <td rowspan="4">Números inteiros</td>
     <td><code>byte</code></td>
     <td>Número inteiro de 8 bits</td>
-    <td>-128 a 127 (-2<sup>7</sup> a 2^<sup>7</sup> - 1)</td>
+    <td>-128 a 127 (-2<sup>7</sup> a 2<sup>7</sup> - 1)</td>
     <td>1 byte</td>
   </tr>
   <tr>
     <td><code>short</code></td>
     <td>Número inteiro de 16 bits</td>
-    <td>-32.768 a 32.767 (-2^15 a 2^15 - 1)</td>
+    <td>-32.768 a 32.767 (-2<sup>15</sup> a 2<sup>15</sup> - 1)</td>
     <td>2 bytes</td>
   </tr>
   <tr>
     <td><code>int</code></td>
     <td>Número inteiro de 32 bits</td>
-    <td>-2.147.483.648 a 2.147.483.647 (-2^31 a 2^31 - 1)</td>
+    <td>-2.147.483.648 a 2.147.483.647
+    (-2<sup>31</sup> a 2<sup>31</sup> - 1)</td>
     <td>4 bytes</td>
   </tr>
   <tr>
     <td><code>long</code></td>
     <td>Número inteiro de 64 bits</td>
     <td>-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
-    (-2^63 a 2^63 - 1)</td>
+    (-2<sup>63</sup> a 2<sup>63</sup> - 1)</td>
     <td>8 bytes</td>
   </tr>
   <tr>
@@ -112,14 +113,14 @@ linguagem Java temos os seguintes tipos de dados:
     <td><code>float</code></td>
     <td>Número de ponto flutuante normalizado em precisão
     simples de 32 bits</td>
-    <td>-1.4 x 10^-45 a +3.4 x 10^38</td>
+    <td>-1.4 x 10<sup>-45</sup> a +3.4 x 10<sup>38</sup></td>
     <td>4 bytes</td>
   </tr>
   <tr>
     <td><code>double</code></td>
     <td>Número de ponto flutuante normalizado em precisão
     simples de 64 bits</td>
-    <td>-5.0 x 10^-324 a +1.7 x 10^308</td>
+    <td>-5.0 x 10<sup>-324</sup> a +1.7 x 10<sup>308</sup></td>
     <td>8 bytes</td>
   </tr>
 </table>
