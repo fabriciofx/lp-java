@@ -1,8 +1,8 @@
-package exemplos.estrututuras_de_repeticao;
+package exemplos.funcoes_e_procedimentos;
 
 import javax.swing.JOptionPane;
 
-public class NumeroPrimo {
+public class FuncaoNumeroPrimo {
 	public static boolean ehPrimo(int n) {
 		for (int i = 2; i < n; i++) {
 			if (n % i == 0) {
