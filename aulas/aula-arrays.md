@@ -1,7 +1,7 @@
 # 1. Arrays
 
-Neste capítulo vamos estudar o conceito de *array* que é um importante conceito
-de como armazenar elementos de um mesmo tipo.
+Neste capítulo vamos estudar o conceito de *array* que consiste em uma forma de
+criar um conjunto de variáveis de um mesmo tipo.
 
 
 ## 1.1 Motivação
@@ -22,8 +22,8 @@ public class CalculaMediaDaTurma {
 }
 ```
 Não é difícil perceber o que o programa acima faz. Basicamente ele calcula a
-média aritmética de duas notas. Agora imagine que você queria calcular a média
-de 5 notas. Uma possível modificação a ser feita seria:
+média aritmética de duas notas. Agora imagine que você queira calcular a média
+de cinco notas. Modificando o exemplo anterior, teríamos:
 
 ```java
 public class CalculaMediaDaTurma {
@@ -41,32 +41,38 @@ public class CalculaMediaDaTurma {
   }
 }
 ```
-Começou a perceber a dificuldade? E se fossem 10 notas? E se fossem 100? E se
-fossem 1.000.000? Seria bem difícil escrever esse programa, não é mesmo? E onde
-está a dificuldade? Vejamos:
+Compare os dois exemplos. Percebeu a dificuldade? E se o programa tivesse que
+calcular a média de 10 notas? E se fosse 100 notas? E se fosse 1.000.000 de
+notas? Seria bem difícil escrever esse programa, não é mesmo? E em que consiste
+esta dificuldade? Vejamos:
 
-* Ter que declarar 10, 100, 1.000.000 variáveis (nota1, nota2, ....);
-* Ter que escrever 10, 100, 1.000.000 de instruções do tipo `Double.parseDouble(JOptionPane.showInputDialog("Digite a Nº nota"));`;
+* Ter que declarar 10, 100, 1.000.000 variáveis (nota1, nota2, nota3, ...);
+* Ter que escrever 10, 100, 1.000.000 de instruções
+`Double.parseDouble(JOptionPane.showInputDialog("Digite a Nº nota"));` a fim
+de solicitar que o usuário informasse cada nota;
 * Ter que escrever a instrução de calcular a média, somando todas as notas
 `(nota1 + nota2 + ...)`.
 
 A esta altura você deve estar se perguntando: será que não existe uma maneira
-mais simples de se fazer isso? E há! Para isso, utilizaremos um recurso chamado
-**array**.
+mais simples de se construir este programa? E há! Para isso, utilizaremos um
+recurso chamado **array**.
 
 
 ## 1.2 Definição
 
-> Um array é um conjunto de elementos de um mesmo tipo cuja quantidade de
+> Um array é um conjunto de variáveis de um mesmo tipo cuja quantidade de
 elementos é fixa.
 
 Observações:
 
 * Os itens que são armazenados em um array são chamados *elementos*;
 * A quantidade máxima de elementos que podem ser armazenados neste conjunto
-é fixa e deve ser estabelecida na criação deste conjunto;
+é fixa e deve ser estabelecida no momento de criação do conjunto;
 * Cada elemento é acessado *individualmente* no conjunto por meio de um número
 chamado *índice* (ou, em inglês, *index*).
+* O índice é sempre um número do tipo inteiro positivo ou um char e este número
+varia de 0 (primeiro elemento) até quantidade máxima de elementos - 1 (último
+elemento).
 
 
 ## 1.3 Sintaxe
@@ -85,10 +91,10 @@ identificador = new Tipo[TAMANHO];
 Em que:
 
 * `Tipo[]`: está declarado que será criado um conjunto de elementos de um
-determinado Tipo de dado (ex.: `int`, `double`, `boolean`, `String`, etc);
+determinado tipo de dado (ex.: `int`, `double`, `boolean`, `String`, etc);
 * `identificador`: indica qual será o *"nome"* deste conjunto (ex.: `notas`,
 `nomes`, `letras`, `idades`, etc);
-* `TAMANHO`: indica a quantidade de elementos máximo que pode ser colocada neste
+* `TAMANHO`: indica a quantidade máxima de elementos que pode ser colocada neste
 conjunto.
 
 
@@ -104,7 +110,8 @@ conjunto.
   * Os elementos (as notas) que serão armazenados neste conjunto são todos do
   tipo `double`;
   * O conjunto chama-se `notas`;
-  * A quantidade máxima de elementos possíveis de serem armazenados é 10;
+  * A quantidade máxima de elementos possíveis de serem armazenados neste
+  conjunto é 10, isto é, 10 notas.
 
 2. Para criar um conjunto de 15 nomes:
 
@@ -116,7 +123,8 @@ conjunto.
   * Os elementos (os nomes) que serão armazenados neste conjunto são todos do
   tipo `String`;
   * O conjunto chama-se `nomes`;
-  * A quantidade máxima de elementos possíveis de serem armazenados é 15;
+  * A quantidade máxima de elementos possíveis de serem armazenados neste
+  conjunto é 15, isto é, 15 nomes.
 
 3. Para criar um conjunto de 5 idades:
 
@@ -128,10 +136,38 @@ conjunto.
   * Os elementos (as idades) que serão armazenados neste conjunto são todos do
   tipo `int`;
   * O conjunto chama-se `idades`;
-  * A quantidade máxima de elementos possíveis de serem armazenados é 5;
+  * A quantidade máxima de elementos possíveis de serem armazenados neste
+  conjunto é 5, isto é, 5 idades.
 
 
-## 1.5 Exercícios
+## 1.5 Acessando individualmente os elementos do array
+
+Para acessar individualmente cada elemento do conjunto, utiliza-se a notação
+`identificador[ÍNDICE]`, em que ÍNDICE é a posição daquele elemento no array.
+Como dito anteriormente, este ÍNDICE varia de 0 (primeiro elemento) até
+TAMANHO - 1 (último elemento), em que TAMANHO é a quantidade máxima de elementos
+do array.
+
+Exemplos:
+
+Evoluindo no exemplo **1** da secção **1.4**, poderíamos ter:
+```java
+double[] notas = new double[10];
+
+notas[0] = 7.5; // Atribui o valor (nota) 7.5 ao primeiro elemento do array
+notas[1] = 6.0; // Atribui o valor (nota) 6.0 ao segundo elemento do array
+notas[2] = 3.8; // Atribui o valor (nota) 3.8 ao terceiro elemento do array
+...
+notas[9] = 8.2; // Atribui o valor (nota) 8.2 ao décimo elemento do array
+```
+
+Note que:
+
+
+
+
+
+## 1. Exercícios
 
 1. Desenvolva um programa que solicite que o usuário informe 10 números
 inserido-os em um array. A seguir, mostre na tela a soma dos números que foram
