@@ -1,4 +1,4 @@
-package exemplos.estrututuras_de_repeticao;
+package exemplos.jogos;
 
 import java.util.Random;
 
