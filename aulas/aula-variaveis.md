@@ -109,7 +109,7 @@ linguagem Java temos os seguintes tipos de dados mais comuns:
     <td>8 bytes</td>
   </tr>
   <tr>
-    <td rowspan="2">Números reais</td>
+    <td rowspan="2" bgcolor="#FFFFFF">Números reais</td>
     <td><code>float</code></td>
     <td>Número de ponto flutuante normalizado em precisão
     simples de 32 bits</td>
