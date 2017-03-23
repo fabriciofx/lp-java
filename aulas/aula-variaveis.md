@@ -6,15 +6,14 @@ armazenar dados e o resultado de algum processamento.
 
 ## 1.1 Motivação
 
-Como vimos anteriormente, a memória RAM do computador é utilizada para
-armazenar os dados e instruções a serem executadas pela CPU do computador. Este
-processo é comum quando, por exemplo, precisamos ler uma dado digitado por meio
-do teclado do computador. Este dado precisa ser armazenado na memória RAM para
-só então poder ser utilizado no programa. Um cálculo de uma efetuado por um
-programa também possui um resultado, que possivelmente também será armazenado
-na memória RAM do computador. A questão é: como podemos então utilizar a
-memória RAM para armazenar os dados? A resposta a esta pergunta é a utilização
-de uma variável.
+Como vimos anteriormente, a memória RAM do computador é utilizada para armazenar
+os dados e instruções a serem executadas pela CPU do computador. Este processo é
+comum quando, por exemplo, precisamos ler uma dado digitado por meio do teclado
+do computador. Este dado precisa ser armazenado na memória RAM para só então
+poder ser utilizado no programa. Um cálculo efetuado por um programa também
+possui um resultado, que possivelmente também será armazenado na memória RAM do
+computador. A questão é: como podemos então utilizar a memória RAM para
+armazenar os dados? A resposta a esta pergunta é a utilização de uma variável.
 
 
 ## 1.2 Definição
@@ -31,7 +30,7 @@ armazenados na **memória RAM**.
 Uma variável possui três características fundamentais a saber: **tipo de
 dado**, **identificador** e **valor**.
 
-O **tipo de dado**, ou simplesmente tipo, informa qual o tipo do dado que a
+O **tipo de dado**, ou simplesmente **tipo**, informa qual o tipo do dado que a
 variável irá armazenar ou representar. Como exemplos de tipos de dado pode ser
 um número inteiro ou real, um caractere, uma string ou um valor booleano.
 
@@ -59,7 +58,7 @@ identificador = valor;
 
 Em que:
 * `Tipo`: indica a natureza do dado que você está guardando na memória RAM. Na
-linguagem Java temos os seguintes tipos de dados:
+linguagem Java temos os seguintes tipos de dados mais comuns:
 <table>
   <tr>
     <th>Tipo</th>
@@ -71,7 +70,7 @@ linguagem Java temos os seguintes tipos de dados:
   <tr>
     <td>Booleano</td>
     <td><code>boolean</code></td>
-    <td>Representa verdadeiro verdadeiro ou falso</td>
+    <td>Representa verdadeiro ou falso</td>
     <td><code>true</code> ou <code>false</code></td>
     <td>1 bit ou 1 byte (Depende da JVM)</td>
   </tr>
@@ -124,15 +123,22 @@ linguagem Java temos os seguintes tipos de dados:
     <td>-5.0 x 10<sup>-324</sup> a +1.7 x 10<sup>308</sup></td>
     <td>8 bytes</td>
   </tr>
+  <tr>
+    <td>String</td>
+    <td><code>String</code></td>
+    <td>Conjunto de caracteres</td>
+    <td></td>
+    <td>N bytes</td>
+  </tr>  
 </table>
 
 * `valor`: o dado a ser guardado na variável.
-  * Para guardar um valor numa variável, usamos o operador de atribuição (`=`).
+  * Para guardar um valor numa variável, usamos o *operador de atribuição* (`=`).
 
 
 ## 1.5 Exemplos
 
-1. Crie uma variável para armazenar um endereço
+1. Crie uma variável para armazenar uma parte de um endereço
 
   ```java
   String logradouro;
